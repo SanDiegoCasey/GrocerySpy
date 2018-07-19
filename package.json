@@ -8,11 +8,15 @@
     "npm": "5.6.0"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "mocha"
   },
   "author": "Casey Whitcher",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3"
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "express": "^4.16.3",
+    "mocha": "^5.2.0"
   }
 }
